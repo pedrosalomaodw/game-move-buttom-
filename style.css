@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(0, 113, 212);
+}
+
+h1{
+    color: white;
+}
+
+.centro{
+    margin: 150px auto 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.botaos{
+    position: absolute;
+    margin-top: 90px;
+    align-items: center;
+    display: flex;
+}
+
+button{
+    height: 60px;
+    width: 90px;
+    background-color: rgb(165, 0, 0);
+    color: white;
+    font-size: 30pt;
+    justify-content: center;
+
+
+}
+
+#movendo{
+    position: relative;
+    z-index: 1;
+}
